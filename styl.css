@@ -1,0 +1,74 @@
+body{
+    font-family: Georgia;
+    margin: 0px;
+    padding: 0px;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.glowa{
+    padding: 8px;
+    background-color: indigo;
+    width: 100vw;
+    color: white;
+    align-items: center;
+    text-align: center;
+}
+
+.nawi{
+    padding: 10px;
+    background-color: #A1887F;
+    height: 70px;
+    text-align: end;
+    align-content: center;
+    color: white;
+}
+
+.stopka{
+    background-color: indigo;
+    color: white;
+    padding: 7px;
+    text-align: center;
+}
+
+.srodek{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: red;
+    height: 550px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.bl{
+    padding: 7px;
+    background-color: #D7CCC8;
+    width: 35%;
+    height: 550px;
+}
+
+.bp{
+    padding: 7px;
+    background-color: #D7CCC8;
+    width: 65%;
+    height: 550px;
+}
+
+.lista{
+    color: indigo;
+}
+
+.obraz{
+    height: 240px;
+    width: 400px;
+    border-radius: 20px;
+    margin: 6px;
+}
+
+.obraz:hover{
+    box-shadow: 0 0 10px 2px indigo;
+    transition: 0.5s;
+}
